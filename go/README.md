@@ -6,11 +6,15 @@ Format with `goimports`.
 
 ## Linter
 
-Lint with [gometalinter][gometalinter].
+Lint with:
+
+* `errcheck -blank -ignoretests ./...`
+* `go vet ./...`
+* `go test -race ./...`
 
 Fix all reported issues before submitting a PR.
 
-* [ ] **TODO:** Define which specific linters to enable
+* [ ] **TODO:** create a config for [gometalinter][gometalinter], and use that instead of individual linters
 
 ## Style guide
 
