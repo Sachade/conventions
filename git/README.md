@@ -1,6 +1,6 @@
 # Git
 
-## Good commit messages
+## Style guide
 
 Follow Erlang OTP's [commit message style
 guide](https://github.com/erlang/otp/wiki/writing-good-commit-messages).
@@ -11,12 +11,14 @@ Most importantly, use imperative mode in the summary:
 > imperative mode, that is as if you were commanding someone. Start the
 > line with "Fix", "Add", "Change" instead of "Fixed", "Added", "Changed".
 
-## Tests pass on every commit
+## Additions
+
+### Tests pass on every commit
 
 Every commit is a self-contained change with an accompanying commit
 message.
 
-## Prefer rebasing to merging
+### Prefer rebasing to merging
 
 Rebasing instead of merging keeps the git history as simple and linear as
 possible.
