@@ -5,6 +5,12 @@
 Follow Erlang OTP's [commit message style
 guide](https://github.com/erlang/otp/wiki/writing-good-commit-messages).
 
+Most importantly, use imperative mode in the summary:
+
+> Write the summary line and description of what you have done in the
+> imperative mode, that is as if you were commanding someone. Start the
+> line with "Fix", "Add", "Change" instead of "Fixed", "Added", "Changed".
+
 ## Tests pass on every commit
 
 Every commit is a self-contained change with an accompanying commit
