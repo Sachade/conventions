@@ -1,5 +1,31 @@
 # Git
 
+## Formatter
+
+When using Markdown in commit messages, format with the designated
+[markdown formatter](../markdown/README.md#formatter).
+
+## Linter
+
+Lint your commit messages with `gitlint` using the default config.
+
+**Note:** This linter requires every commit message to have a body. A body
+may be redundant for some commits, but the time spent on adding a minimum
+of context to every commit leads to faster reviews and faster ramp-up of
+new developers.
+
+To use this linter as a commit hook, run `gitlint install-hook` once in
+every repository where you want it enabled.
+
+```
+git commit --amend
+gitlint: checking commit message...
+6: B2 Line has trailing whitespace: "A line with trailing whitespace!  "
+-----------------------------------------------
+gitlint: Your commit message contains the above violations.
+Continue with commit anyways (this keeps the current commit message)? [y(es)/n(no)/e(dit)]
+```
+
 ## Style guide
 
 Follow Erlang OTP's [commit message style
