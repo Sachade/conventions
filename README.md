@@ -7,8 +7,9 @@ Conventions for how we build quality software.
 Having common conventions enables us to produce higher quality software
 faster.
 
-Conventions increase the number of **issues caught before code review**,
-so that code review can focus on what matters (in order of importance):
+Conventions increase the number of issues caught before [code
+review](./code-review), so that reviewers can focus on what matters (in
+order of importance):
 
 * Correctness
 * Ease of understanding
