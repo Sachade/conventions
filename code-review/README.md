@@ -63,7 +63,7 @@ and that no valid input leads to an error.
 When applicable, provide suggestions for how [property-based
 testing](https://en.wikipedia.org/wiki/QuickCheck) can be used.
 
-#### The reviewer _may_ suggest changes to encourage
+#### The reviewers _may_ suggest changes to encourage
 
 * [ ] The code is performant enough for the context in which it runs
 
