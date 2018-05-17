@@ -7,7 +7,11 @@ using the default settings.
 
 ## Linter
 
-* [ ] **TODO:** Decide on linter for C++
+Lint with [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) using
+the default config.
+
+* [ ] _TODO_: Add more checkers (e.g. `cppcoreguidelines-*` and
+      `modernize-*`)
 
 ## Style guide
 
