@@ -10,8 +10,8 @@ using the default settings.
 Lint with [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) using
 the default config.
 
-* [ ] _TODO_: Add more checkers (e.g. `cppcoreguidelines-*` and
-      `modernize-*`)
+* [ ] Add more clang-tidy checkers (`cppcoreguidelines-*`, `modernize-*`, etc)
+* [ ] LLVM sanitizers (e.g. {Thread,Address,Memory}Sanitizer)
 
 ## Style guide
 
