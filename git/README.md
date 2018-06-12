@@ -39,6 +39,13 @@ Most importantly, use imperative mode in the summary:
 
 ## Additions
 
+### Configure your git's line ending behavior
+
+Line endings are different for different operating systems. In order to
+ensure a smooth collaboration across plattforms, your git should be set
+according to [this article here](https://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings).
+For further reading, please refer to [here](https://stackoverflow.com/questions/3206843/how-line-ending-conversions-work-with-git-core-autocrlf-between-different-operat) and [here](http://web.archive.org/web/20150912185006/http://adaptivepatchwork.com:80/2012/03/01/mind-the-end-of-your-line/).
+
 ### Tests pass on every commit
 
 Every commit is a self-contained change with an accompanying commit
