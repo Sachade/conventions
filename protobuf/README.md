@@ -11,3 +11,7 @@ Format with `prototool format`.
 ## Linter
 
 Lint with `prototool lint`.
+
+## Style guide
+
+Look to [Prototool style guide](https://github.com/uber/prototool/blob/master/etc/style/uber/uber.proto).
